@@ -7,15 +7,21 @@ export const typography: {[key: string ]: string} = {
     h6_font_size: '20px',
 }
 
+export const corner: {[key: string ]: string} = {
+    small: "6",
+    medium: "10",
+    large: "15"
+}
+
 export const colors: {[key: string ]: string} = {
     primary: '#0E4DA4',
     secondary: '#1BB55C'
 }
 
-export const buttonPadding: {[key: string ]: string} = {
+export const buttonSize: {[key: string ]: string} = {
     mini: '8px 16px',
     normal: '10px 20px',
-    medium: '',
-    large: '',
-    big: ''
+    medium: '12px 24px',
+    large: '14px 28px',
+    big: '18px 36px'
 }
